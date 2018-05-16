@@ -1,0 +1,15 @@
+{
+  "db":{
+    "host": "ip",
+    "port": 3306,
+    "user": "username",
+    "password": "password",
+    "dbname": "dbname"
+  },
+  "runtime": {
+    "host": "0.0.0.0",
+    "port": 8888,
+    "debug": true
+  },
+  "debug": true
+}
