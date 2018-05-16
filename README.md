@@ -18,7 +18,7 @@ Tiny and simple, maybe i will optimize it at some time, who knows.
 
 # deploy
 
-- `git colne` this repo to your ECS.
+- `git cone` this repo to your ECS.
 - `mysql>source xxx.fortodilist.sql` to serialize your MySQL DataBase, tables.
 - `cp todolist.nginx.conf /etc/nginx/conf.d` and modify your own properties which suitable your Nginx server, expecially the static file path.
 - make sure every software works fine, then `nohup python index.py > nohup.out &`.
