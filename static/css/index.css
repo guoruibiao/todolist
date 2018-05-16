@@ -1,0 +1,34 @@
+body {
+    background: url('../imgs/background.jpg') no-repeat fixed center;
+}
+
+h1 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: white;
+}
+
+.container {
+    max-width: 720px;
+}
+
+.done {
+    color: #cca;
+}
+
+.checkbox {
+    margin-right: 12px;
+    margin-bottom: 0;
+}
+
+.done > .checkbox > label > span {
+    text-decoration: line-through;
+}
+.createtime {
+    text-align: right;
+}
+
+li.list-group-item > span {
+    margin: 10px;
+}
